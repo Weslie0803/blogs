@@ -97,14 +97,17 @@
 <p>因此</p>
 <blockquote>
 <ul>
-<li><p>折射率与介电常数关系式<br>$$<br>\varepsilon=n^2<br>$$<br>只在THz以上成立</p>
+<li><p>折射率与介电常数关系式</p>
+<script type="math/tex; mode=display">
+\varepsilon=n^2</script><p>只在THz以上成立</p>
 </li>
 <li><p>拥有永久性偶极子的铁电材料不能用作微波介电材料：低频率（kHz）下铁电材料的介电常数都非常高，但随外加电场频率增加而显著下降</p>
 </li>
 </ul>
 </blockquote>
-<p>电位移：<br>$$<br>D=\varepsilon_0 E+P=\varepsilon\varepsilon_0E<br>$$</p>
-<h4 id="铁电体"><a href="#铁电体" class="headerlink" title="铁电体"></a>铁电体</h4><p>电介质的自发极化能被外加电场翻转的材料</p>
+<p>电位移：</p>
+<script type="math/tex; mode=display">
+D=\varepsilon_0 E+P=\varepsilon\varepsilon_0E</script><h4 id="铁电体"><a href="#铁电体" class="headerlink" title="铁电体"></a>铁电体</h4><p>电介质的自发极化能被外加电场翻转的材料</p>
 <blockquote>
 <p><strong>自发极化性能</strong>：某些晶体的正、负电荷中心，即使在没有外电场的情况下也不一定重合，这种晶体被称为具有自发极化性能。</p>
 </blockquote>
@@ -123,8 +126,9 @@
 </li>
 <li>随温度降低，振动模式的频率也会降低，到相变温度下振动频率降为0</li>
 </ul>
-<h4 id="理论推导"><a href="#理论推导" class="headerlink" title="理论推导"></a>理论推导</h4><p>局部电场<br>$$<br>E^{loc}=E_0+\sum_i\left[3(\vec p_i\cdot \vec r_i)\vec r_i-\vec r_i^2\vec p_i\right]/4\pi\varepsilon_0r_i^5\=\frac{\gamma}{3\varepsilon_0}\mathbf P<br>$$</p>
-<blockquote>
+<h4 id="理论推导"><a href="#理论推导" class="headerlink" title="理论推导"></a>理论推导</h4><p>局部电场</p>
+<script type="math/tex; mode=display">
+E^{loc}=E_0+\sum_i\left[3(\vec p_i\cdot \vec r_i)\vec r_i-\vec r_i^2\vec p_i\right]/4\pi\varepsilon_0r_i^5\\=\frac{\gamma}{3\varepsilon_0}\mathbf P</script><blockquote>
 <ul>
 <li>$E^{loc}$：局部电场</li>
 <li>$E_0$：外加电场</li>
@@ -134,7 +138,17 @@
 </ul>
 </blockquote>
 <p>局部电场是离子移动的驱动力</p>
-<p>若A离子的离子极化率为$\alpha$，晶胞中偶极矩<br>$$<br>\mu=\frac{\alpha\gamma}{3\varepsilon_0}\bf P<br>$$<br>偶极矩能量<br>$$<br>w_{\text{dip}}=-\mu\cdot E^{loc}=-\frac{\alpha\gamma^2}{9\varepsilon_0^2}P^2<br>$$<br>单位体积的偶极子数目为N，总能量<br>$$<br>W_{dip}=Nw_{dip}=-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}P^2<br>$$<br>离子位移的弹性能<br>$$<br>W_{elas}=N[(k/2)u^2+(k’/4)u^4]<br>$$<br>$k’&gt;0$为高阶力常数。利用$P=Nqu$改写：<br>$$<br>W=W_{dip}+W_{elas}=\left(\frac{k}{2Nq^2}-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}\right)P^2+\frac{k’}{4N^3q^4}P^4<br>$$<br>开口向上的二次函数。基于能量最低原理，分类讨论</p>
+<p>若A离子的离子极化率为$\alpha$，晶胞中偶极矩</p>
+<script type="math/tex; mode=display">
+\mu=\frac{\alpha\gamma}{3\varepsilon_0}\bf P</script><p>偶极矩能量</p>
+<script type="math/tex; mode=display">
+w_{\text{dip}}=-\mu\cdot E^{loc}=-\frac{\alpha\gamma^2}{9\varepsilon_0^2}P^2</script><p>单位体积的偶极子数目为N，总能量</p>
+<script type="math/tex; mode=display">
+W_{dip}=Nw_{dip}=-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}P^2</script><p>离子位移的弹性能</p>
+<script type="math/tex; mode=display">
+W_{elas}=N[(k/2)u^2+(k'/4)u^4]</script><p>$k’&gt;0$为高阶力常数。利用$P=Nqu$改写：</p>
+<script type="math/tex; mode=display">
+W=W_{dip}+W_{elas}=\left(\frac{k}{2Nq^2}-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}\right)P^2+\frac{k'}{4N^3q^4}P^4</script><p>开口向上的二次函数。基于能量最低原理，分类讨论</p>
 <ul>
 <li>若二次函数对称轴在负半轴（$\frac{k}{2Nq^2}-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}\ge0$），最小值在$P=0$处取得。物理意义上，此时弹性能占据主要支配地位。</li>
 <li>反之，最小值在对称轴处（$P^2=\left(\frac{2N\alpha\gamma^2}{9\varepsilon_0^2}-\frac{k}{Nq^2}\right)/\left(\frac{k’}{N^3q^4}\right)$）取得</li>
@@ -144,8 +158,9 @@
 <ul>
 <li><p>钙钛矿型晶体具有更高的洛伦兹因子(=10)，自发极化更容易在钙钛矿型晶体中发生</p>
 </li>
-<li><p>晶体极化率$\alpha$对温度敏感（随温度升高而降低），因而导致相变。考虑一级近似，$\alpha$​与温度线性关系，得到居里-外斯定律（Curie-Weiss law）<br>$$<br>\tag{Curie-Weiss Law} \frac{k}{2Nq^2}-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}\propto\frac{T-T_0}{C}<br>$$</p>
-</li>
+<li><p>晶体极化率$\alpha$对温度敏感（随温度升高而降低），因而导致相变。考虑一级近似，$\alpha$​与温度线性关系，得到居里-外斯定律（Curie-Weiss law）</p>
+<script type="math/tex; mode=display">
+\tag{Curie-Weiss Law} \frac{k}{2Nq^2}-\frac{N\alpha\gamma^2}{9\varepsilon_0^2}\propto\frac{T-T_0}{C}</script></li>
 </ul>
 </blockquote>
 <h4 id="例题1-1-计算BTO的自发极化值"><a href="#例题1-1-计算BTO的自发极化值" class="headerlink" title="例题1.1 计算BTO的自发极化值"></a>例题1.1 计算BTO的自发极化值</h4><p>buxiangxiele</p>
@@ -168,7 +183,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weslie0803.github.io/blogs/2022/07/15/%E9%93%81%E7%94%B5%E5%99%A8%E4%BB%B6%E7%AC%AC%E4%B8%80%E7%AB%A0/" data-id="cl5m9stwi0000ubupfbfu27yp" class="article-share-link">Share</a>
+      <a data-url="https://weslie0803.github.io/blogs/2022/07/15/%E9%93%81%E7%94%B5%E5%99%A8%E4%BB%B6%E7%AC%AC%E4%B8%80%E7%AB%A0/" data-id="cl5mdnab30003quup9y79aqec" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blogs/tags/%E9%93%81%E7%94%B5-Ferroelectric/" rel="tag">铁电; Ferroelectric;</a></li></ul>
@@ -226,7 +241,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weslie0803.github.io/blogs/2022/06/19/220619Weslie%E9%83%BD%E5%B9%B2%E4%BA%86%E4%BA%9B%E5%95%A5/" data-id="cl4lhvp890000nvupe8g4bil5" class="article-share-link">Share</a>
+      <a data-url="https://weslie0803.github.io/blogs/2022/06/19/220619Weslie%E9%83%BD%E5%B9%B2%E4%BA%86%E4%BA%9B%E5%95%A5/" data-id="cl5mdnaav0000quup626wde9v" class="article-share-link">Share</a>
       
       
     </footer>
@@ -266,7 +281,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weslie0803.github.io/blogs/2022/06/19/Initialize/" data-id="cl4k61xb00000yfup4afx52ue" class="article-share-link">Share</a>
+      <a data-url="https://weslie0803.github.io/blogs/2022/06/19/Initialize/" data-id="cl5mdnab20002quuphjbrf8g3" class="article-share-link">Share</a>
       
       
     </footer>
@@ -300,22 +315,18 @@
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weslie0803.github.io/blogs/1970/01/01/hello-world/" data-id="cl4k4ugmt0000clupgavsfjai" class="article-share-link">Share</a>
+      <a data-url="https://weslie0803.github.io/blogs/1970/01/01/hello-world/" data-id="cl5mdnab10001quup6uty32gb" class="article-share-link">Share</a>
       
       
     </footer>
