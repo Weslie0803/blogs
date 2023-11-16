@@ -20,3 +20,4 @@ yarn路径未添加至环境变量，未找到yarn下载的typescript二进制�
 ```
 export PATH=$PATH:/path/to/yarn/bin
 ```
+问题即解决。
