@@ -1,7 +1,7 @@
 ---
 title: typescript安装问题
 date: 2023-11-15 12:22:09
-tags:
+tags: debug
 ---
 
 ## 描述
