@@ -63,3 +63,7 @@ source ~/.bashrc
 2. 如未使用sudo安装，日志文件的文件名应为`/tmp/mathworks_{username}.log`
 
 3. 以上安装步骤未包含激活
+
+## 参考链接
+https://blog.csdn.net/Alex497259/article/details/129865457
+https://blog.csdn.net/weixin_44987694/article/details/129341420
