@@ -1,7 +1,11 @@
 ---
 title: 样品倾转的计算：使用NiceGUI框架
 date: 2024-1-23 15:22:20
-tags: python; 前端; NiceGUI; 电镜
+tags: 
+    - python
+    - 前端
+    - NiceGUI
+    - 电镜
 ---
 
 ## 起源

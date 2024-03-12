@@ -1,7 +1,10 @@
 ---
 title: matlab无GUI安装
 date: 2024-3-11 15:32:12
-tags: matlab; 服务器; 安装;
+tags: 
+    - matlab
+    - 服务器
+    - 安装
 ---
 
 ## 问题描述
